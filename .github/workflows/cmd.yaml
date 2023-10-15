@@ -1,5 +1,8 @@
 name: CML
-on: [push]
+on:
+  push:
+    paths:
+      - 'train.py'
 jobs:
   train-and-report:
     runs-on: ubuntu-latest
