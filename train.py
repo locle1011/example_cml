@@ -13,7 +13,7 @@ y_test = np.genfromtxt("data/test_labels.csv")
 
 # Fit a model
 depth = 6
-n_estimators = 10
+n_estimators = 20
 clf = RandomForestClassifier(max_depth=depth, n_estimators=n_estimators)
 clf.fit(X_train, y_train)
 
